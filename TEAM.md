@@ -72,12 +72,12 @@ Mỗi thành viên đồng thời tạo một báo cáo riêng trong `report/tea
 
 - Gắn bộ nhãn độc lập 1 cho toàn bộ 20 ca lỗi trong `report/team/bang_loi.md` và hoàn thiện bảng khắc phục 5 ca đại diện (Ca 9, 7, 18, 4, 17) với cách phát hiện đo được (event, ngưỡng, tần suất) và 1 vai trò phụ trách cụ thể.
 - Hoàn thiện E1 trong `report/team/chi_so.md`: tính thử 3 chỉ số trên 1.200 yêu cầu (82,83%, 27,12%, 4,25%), đề xuất 2 chỉ số mới (tỉ lệ dùng trợ lý nhóm can thiệp, tỉ lệ đơn sai tiền qua `audit_sample_checked`), thiết kế 10 event gắn `trace_id` và đối chiếu công thức tính từng chỉ số.
-- Lập sẵn 3 dòng khung rủi ro kinh tế E2 trong `report/team/chi_so.md` (`PM trợ lý hoàn phí`, `Trưởng nhóm CSKH`).
+- Hoàn thiện 3 dòng rủi ro kinh tế E2 trong `report/team/chi_so.md` kèm đầy đủ số liệu `simulated` từ mô hình chi phí nhóm (`PM trợ lý hoàn phí`, `Trưởng nhóm CSKH`).
 
 ### Bằng chứng
 
-- `report/team/bang_loi.md`, `report/team/chi_so.md` (commit `ed4865c`, đã merge vào `main` qua PR #2 `5d6393f`).
-- File báo cáo cá nhân: `report/team/2A202603778_PhamTheHung.md` `[Chờ Máy 3 bổ sung]`.
+- `report/team/bang_loi.md`, `report/team/chi_so.md` (PR #2 `5d6393f` và PR chốt E2 + báo cáo cá nhân).
+- File báo cáo cá nhân: `report/team/2A202603778_PhamTheHung.md`.
 
 ## NguyenVanCuong-2A202603750
 
