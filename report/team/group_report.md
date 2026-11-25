@@ -21,7 +21,7 @@ Mục tiêu của Lab 13 là xây dựng bộ hồ sơ launch v0 cho trợ lý h
 
 - **Nhiệm vụ A · Mô hình chi phí ([`src/lab13.py`](../../src/lab13.py), [`bang_chi_phi.md`](bang_chi_phi.md)):** Vượt qua 3 phép thử A1 (`1,20 · 1,25 · 1,25`), xây dựng hàm `mo_hinh()` tính đầy đủ token + tool (kể cả lần lỗi) cộng chi phí xem lại/làm lại trên 1.200 yêu cầu (1.624 lần chạy), tách theo 4 loại yêu cầu và cộng chi phí cố định 40 triệu đ/tháng.
 - **Nhiệm vụ B · Độ nhạy & kịch bản giới hạn ([`bang_chi_phi.md`](bang_chi_phi.md)):** Chạy 9 kịch bản đơn + 1 kịch bản cặp; xếp hạng yếu tố ảnh hưởng mạnh nhất; tính chi phí cả hệ thống ở giới hạn 1–3 lần chạy (B3) và kiểm tra kịch bản xem lại 100% ở tuần đầu (B4).
-- **Nhiệm vụ C · Phân loại lỗi & khắc phục ([`bang_loi.md`](bang_loi.md), [`docs/notes/nhan_loi_may4.md`](../../docs/notes/nhan_loi_may4.md)):** Máy 3 và Máy 4 gắn nhãn độc lập 20 ca lỗi theo 5 loại Google PAIR (bám nguyên nhân gốc), đối chiếu đạt đồng thuận **20/20 (100%)**, và lập bảng phát hiện/khắc phục cho 5 ca đại diện (Ca 9, 7, 18, 4, 17).
+- **Nhiệm vụ C · Phân loại lỗi & khắc phục ([`bang_loi.md`](bang_loi.md), [`docs/notes/nhan_loi_may4.md`](../../docs/notes/nhan_loi_may4.md)):** Máy 3 và Máy 4 gắn nhãn độc lập 20 ca lỗi theo 5 loại Google PAIR (bám nguyên nhân gốc), đối chiếu đạt đồng thuận **18/20 (90%)** (vượt ngưỡng 80%, thống nhất 2 ca lệch là Ca 10 → `Ngữ cảnh`, Ca 20 → `Hệ thống`), và lập bảng phát hiện/khắc phục cho 5 ca đại diện (Ca 9, 7, 18, 4, 17).
 - **Nhiệm vụ D · Thiết kế pilot ([`pilot_plan.yaml`](pilot_plan.yaml)):** Tính cỡ mẫu 3 phương án chia cụm (D1), kiểm định 5 tiêu chí tách tác động (D2), chọn chia ngẫu nhiên phân tầng theo nhân viên (20 + 20) chấp nhận MDE 6 điểm (`n = 859/nhóm`, `m ≥ 299`, `DE = 6,96`) và viết trước 3 luật dừng đủ 4 vế `NẾU – TRONG – THÌ – KHÔNG THÌ`.
 - **Nhiệm vụ E · Chỉ số, rủi ro & Hồ sơ Gate 2a ([`chi_so.md`](chi_so.md), [`ho_so_launch_v0.md`](ho_so_launch_v0.md)):** Đặc tả chỉ số chính/dùng/an toàn, thiết kế 10 event gắn `trace_id`, lập bảng rủi ro kinh tế từ bảng độ nhạy và tổng hợp thành 1 trang hồ sơ launch v0.
 
@@ -37,7 +37,7 @@ Mục tiêu của Lab 13 là xây dựng bộ hồ sơ launch v0 cho trợ lý h
 
 - **Rủi ro đánh giá sai chi phí thực:** Nếu chỉ nhìn hóa đơn token + tool (274,7 đ) sẽ bỏ sót 92,5% chi phí giờ nhân viên (xem lại + làm lại), hoặc bỏ sót 222 ca chuyển nhân viên. Nhóm tính đầy đủ cả `cps` lẫn chi phí toàn hệ thống (B3) và chi phí cố định (A4).
 - **Giới hạn cỡ mẫu với 40 nhân viên:** Chia cụm 20 + 20 chỉ đạt `n_hiệu_dụng` tối đa 1.000 < 1.251 (không đủ bắt MDE 5 điểm). Nhóm minh bạch hóa đánh đổi nâng MDE lên 6 điểm (power giảm còn 0,64 nếu tác động thật 5 điểm) và yêu cầu Giám đốc vận hành ký xác nhận trước pilot.
-- **Các ca lỗi dễ nhầm lẫn ở CP3:** Thống nhất nguyên tắc Google PAIR phân loại theo nguyên nhân gốc (Ca 6, 9 là `Do người dùng`; Ca 13 là `Giới hạn hệ thống`; Ca 8, 15 là `Hệ thống`; Ca 12 là `Ngầm`), giúp đạt đồng thuận 20/20 (100%).
+- **Các ca lỗi dễ nhầm lẫn ở CP3:** Đối chiếu độc lập giữa Máy 3 và Máy 4 đạt đồng thuận **18/20 (90%)**; hai ca lệch ban đầu được thống nhất theo nguyên nhân gốc của Google PAIR (Ca 10 → `Ngữ cảnh` do xung đột thông tin ứng dụng dù đúng chính sách; Ca 20 → `Hệ thống` do thiếu khoá chống trùng), hoàn chỉnh đủ 20/20 ca.
 
 ## 6. Tổng hợp đóng góp
 

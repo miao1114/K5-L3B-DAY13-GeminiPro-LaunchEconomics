@@ -1,7 +1,7 @@
 # Gắn nhãn độc lập 20 ca lỗi — Máy 4 (Người gắn nhãn 2)
 
 - **Người thực hiện:** Nguyễn Đức Minh (`2A202603765`) · Vai trò: Người gắn nhãn 2 kiêm Giữ hồ sơ (Máy 4).
-- **Mục đích:** Gắn nhãn độc lập 20 ca lỗi từ `docs/Ngay13_Lab13_De_bai_hoc_vien.docx` theo 5 loại Google PAIR (phân loại theo **nguyên nhân gốc**, không theo chỗ cần sửa) để gửi Máy 3 ghép vào `report/team/bang_loi.md` đối chiếu đồng thuận CP3 (mục tiêu ≥ 80%, đạt 20/20 = 100%).
+- **Mục đích:** Gắn nhãn độc lập 20 ca lỗi từ `docs/Ngay13_Lab13_De_bai_hoc_vien.docx` theo 5 loại Google PAIR (phân loại theo **nguyên nhân gốc**, không theo chỗ cần sửa) để ghép vào `report/team/bang_loi.md` đối chiếu đồng thuận CP3 với Máy 3 (mục tiêu ≥ 80%, kết quả thực tế đạt **18/20 = 90%**, đã thống nhất đủ 20/20 ca).
 
 ## Tóm tắt phân bố nhãn Máy 4
 
