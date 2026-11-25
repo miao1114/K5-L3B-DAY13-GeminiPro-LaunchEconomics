@@ -60,7 +60,7 @@ Mỗi thành viên đồng thời tạo một báo cáo riêng trong `report/tea
 ### Bằng chứng
 
 - `src/lab13.py` (commit `9b7a85b`, đã merge vào `main` qua PR #1 `06ad45a`).
-- File báo cáo cá nhân: `report/team/2A202603746_NguyenVanHieu.md` `[Chờ Máy 1 bổ sung]`.
+- File báo cáo cá nhân: `report/team/2A202603746_NguyenVanHieu.md` (PR #6 `03a512e`).
 
 ## PhamTheHung-2A202603778
 
@@ -83,12 +83,15 @@ Mỗi thành viên đồng thời tạo một báo cáo riêng trong `report/tea
 
 ### Phần việc phụ trách
 
-- Máy 2 (Kinh tế & Pilot): kiểm số đối chiếu, hoàn thiện `report/team/bang_chi_phi.md` (A2–A4, B1–B4) và `report/team/pilot_plan.yaml` (D1–D3, 3 luật dừng 4 vế).
+- Máy 2 (Kinh tế & Pilot — Người kiểm số): đối chiếu số liệu kinh tế từ trace, hoàn thiện `report/team/bang_chi_phi.md` (A2–A4, B1–B4) và ghi nhận phần tính cỡ mẫu D1 trong `report/team/pilot_plan.yaml`.
 
 ### Đóng góp cụ thể
 
-- `[Đang thực hiện — chờ Máy 2 push trước 16:40 để chốt bảng số liệu và pilot_plan.yaml]`.
+- Hoàn thiện toàn bộ `report/team/bang_chi_phi.md` (A2–A4, B1–B4): tổng hợp chi phí đo từ trace với chi phí giờ nhân viên `simulated` theo từng loại yêu cầu (`noi_dia`, `hang_nang`, `quoc_te`, `doi_tac`).
+- Phân tích chi phí cố định 40 triệu đ/tháng (A4): đạt 4.599 đ/việc ở 45.000 yc/tháng và 5.784 đ/việc ở nửa khối lượng (`simulated`), đều thấp hơn baseline 12.000 đ.
+- Phân tích độ nhạy (B1–B2), so sánh giới hạn chạy lại (B3: giới hạn 2 lần tối ưu chi phí toàn hệ thống ở 6.901.220 đ; giới hạn 1 lần có CPS thấp nhất ở 4.111 đ) và kịch bản xem lại 100% (B4: 11.743 đ–12.415 đ, `simulated`).
+- Ghi nhận đầy đủ kết quả tính cỡ mẫu D1 (`1.251` yc/nhóm khi chia theo yêu cầu; `859` yc/nhóm ở kịch bản chênh 6 điểm, `m ≥ 299`, `DE = 6,96`, power `0,642` ở +5 điểm) và tỉ lệ mở lại 7 ngày (`4,25%`) vào `report/team/pilot_plan.yaml`.
 
 ### Bằng chứng
 
-- `report/team/bang_chi_phi.md`, `report/team/pilot_plan.yaml`, `report/team/2A202603750_NguyenVanCuong.md` `[Chờ Máy 2 push]`.
+- `report/team/bang_chi_phi.md`, `report/team/pilot_plan.yaml`, `report/team/2A202603750_NguyenVanCuong.md` (commit `4a84d7e`).
