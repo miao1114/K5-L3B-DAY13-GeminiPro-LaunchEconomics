@@ -15,7 +15,7 @@
 
 ## 3. Đóng góp cụ thể
 
-- **Nhiệm vụ C (CP3):** Gắn nhãn độc lập 20/20 ca lỗi theo đúng nguyên nhân gốc (`Do người dùng`: 1, 6, 9, 14; `Hệ thống`: 2, 7, 8, 15, 20; `Ngữ cảnh`: 3, 10, 16, 18; `Giới hạn hệ thống`: 4, 11, 13, 19; `Ngầm`: 5, 12, 17), kèm lý do ≤ 2 dòng/ca và 5 quy tắc phân biệt các ca dễ nhầm lẫn để đối chiếu đạt đồng thuận 20/20 (100%) với Máy 3.
+- **Nhiệm vụ C (CP3):** Gắn nhãn độc lập 20/20 ca lỗi theo đúng nguyên nhân gốc (`Do người dùng`: 1, 6, 9, 14; `Hệ thống`: 2, 7, 8, 15, 20; `Ngữ cảnh`: 3, 10, 16, 18; `Giới hạn hệ thống`: 4, 11, 13, 19; `Ngầm`: 5, 12, 17), kèm lý do ≤ 2 dòng/ca; ghép vào `report/team/bang_loi.md` đối chiếu với Máy 3 đạt đồng thuận **18/20 (90%)** (vượt ngưỡng 80%) và thống nhất 2 ca lệch (Ca 10 → `Ngữ cảnh`, Ca 20 → `Hệ thống`).
 - **Nhiệm vụ E (`ho_so_launch_v0.md`):** Chuẩn hóa đủ 7 mục cốt lõi trên 1 trang, bảo đảm mọi con số từ hai cột `_simulated` đều có nhãn `simulated`, dùng đúng 3 giá trị trạng thái (`Xong, có bằng chứng` · `Chưa` · `Giả lập`), gán đúng 1 vai trò có quyền quyết định cho mỗi mục, không khẳng định sai rằng trợ lý "đã nâng" chỉ số từ đợt chạy thử không đối chứng, và chốt đề xuất **`Go có điều kiện`** kèm 4 điều kiện có người phụ trách và hạn kiểm tra cụ thể.
 - **Tổng hợp & kiểm định chất lượng:** Hoàn thiện `TEAM.md`, `report/team/group_report.md` và thực hiện kiểm tra tự động 4 tiêu chí chất lượng (0 vi phạm quy tắc 5, câu giải thích ≤ 3 dòng có số liệu, đủ nhãn `simulated`, không ghi "cả đội" ở cột người phụ trách).
 
