@@ -3,11 +3,13 @@
 # Kiểm tra đọc được: python -c "import yaml; yaml.safe_load(open('../report/team/pilot_plan.yaml'))"
 #
 # D1 · Cỡ mẫu (baseline 0,70; mục tiêu +5 điểm; alpha 0,05; power 0,8; ICC 0,02)
-#   a) Chia theo yêu cầu:
-#   b) Theo nhân viên, m = 75:
-#   c) 20 nhân viên mỗi nhóm:
-#   d) 6 depot mỗi nhóm:
-#   e) Mức chênh 6 điểm (859 mỗi nhóm), 20 nhân viên mỗi nhóm:
+#   a) Chia theo yêu cầu, chênh 5 điểm: 1.251 yêu cầu/nhóm.
+#   b) Theo nhân viên, m = 75: DE=2,48; n=3.103 yêu cầu/nhóm; 42 nhân viên/nhóm (84 tổng, vượt 40 hiện có).
+#   c) 20 nhân viên/nhóm: n hiệu dụng tối đa=1.000/nhóm.
+#   d) 6 depot/nhóm: n hiệu dụng tối đa=300/nhóm.
+#   e) Chênh 6 điểm: n=859/nhóm; 20 nhân viên/nhóm cần m≥299 yêu cầu/người; DE=6,96.
+#   Tỉ lệ mở lại 7 ngày: 4,25% (51/1.200); trong phạm vi: 3,97%.
+#   Power khi tác động thật +5 điểm với n=859/nhóm: 0,642.
 #
 # D2 · Năm câu kiểm tra "tách được tác động" với cách chia đã chọn (mỗi câu một dòng):
 #   1. Đối chứng chạy cùng thời gian:
